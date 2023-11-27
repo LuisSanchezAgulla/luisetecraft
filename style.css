@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.estatica {
+    background: #fff;
+}
+
+body {
+    background: linear-gradient(#040228 0%, #0075c7 40%);
+    min-height: 100vh;
+}
+
+#header_index {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.7em;
+    cursor: default;
+    color: #fff;
+}
+
+.navegar a {
+    color: blueviolet;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navegar a:hover {
+    background: #fff;
+}
+
+.section_index {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('magazine/images/cañon_html.jpg') 70%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: #fff;
+    text-align: center;
+    letter-spacing: .1em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.h3_index {
+    font-size: 2em;
+}
+
+.h1_index {
+    font-size: 3.5em;
+}
+
+.footer_index {
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+
+.footer_index h3 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer_index h2{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer_index p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.herf_index {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/***************************************************************************************************
+****************************************************************************************************
+****************************************CSS del index.html******************************************
+****************************************************************************************************
+****************************************************************************************************/
+
+#header_contactanos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.h2_contactanos {
+    color: azure;
+}
+
+.section_contactanos {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('magazine/images/cañon_html.jpg') 70%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: azure;
+    text-align: center;
+}
+
+.imput-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid azure;
+    margin: 30px 0;
+}
+
+.imput-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50px);
+    font-size: 1em;
+    color: azure;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+
+.imput-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: azure;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.imput-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: azure;
+    line-height: 57px;
+}
+
+.enviar_contactanos {
+    width: 100%;
+    height: 30px;
+    background: azure;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #040228;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.enviar_letra {
+    color: #040228;
+    text-decoration: none;
+}
+
+/***************************************************************************************************
+****************************************************************************************************
+*************************************CSS del contactanos.html***************************************
+****************************************************************************************************
+****************************************************************************************************/
+
+#header_socios {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#section_socios {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: url('magazine/images/cañon_html.jpg') 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_socios2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: rgb(4, 2, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_table_socios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container_socios {
+    border: solid 1px azure;
+}
+
+#tabla_socios {
+    color: azure;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#thead_socios {
+    background: blueviolet;
+}
+
+.th_socios {
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.td_socios {
+    padding: 15px;
+    border-bottom: solid 1px azure;
+}
+
+#tbody_socios tr {
+    cursor: pointer;
+}
+
+#tbody_socios tr:hover {
+    background: blueviolet;
+}
+
+/******************* *******************************************************************************
+****************************************************************************************************
+***************************************CSS del socios.html******************************************
+****************************************************************************************************
+****************************************************************************************************/
+
+#header_temas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#section_temas {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: url('magazine/images/cañon_html.jpg') 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_temas2 {
+    position: relative;
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8% 0;
+    overflow: hidden;
+    background-position: center;
+    background: rgb(4, 2, 40);
+    color: azure;
+}
+
+.Mustang {
+    max-width: 630px;
+}
+
+.Mustang h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.Mustang p {
+    font-size: 16px;
+    margin: 15px 0 30px;
+}
+
+.home-img {
+    position: relative;
+    right: -7%;
+    width: 450px;
+    height: 450px;
+    transform: rotate(45deg);
+}
+
+.home-img .rhombus {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(4, 2, 40);
+    border: 25px solid azure;
+}
+
+.home-img .rhombus img {
+    position: absolute;
+    top: 110px;
+    left: -250px;
+    max-width: 750px;
+    transform: rotate(-45deg);
+}
+
+/***************************************************************************************************
+****************************************************************************************************
+***********************************CSS del socios.html**********************************************
+****************************************************************************************************
+****************************************************************************************************/
