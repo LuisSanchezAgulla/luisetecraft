@@ -1,1 +1,12 @@
 # fundamentalsufv.github.io
+
+
+Para la creación de una página web es necesario tener conocimiento de algunos lenguajes de programación.
+
+HTML es el lenguaje por el que se da estructura y se coloca el contenido, por decirlo de alguna manera, en la página web. Este consiste en una serie de etiquetas con la capacidad de poner <heading> (Encabezado), <p> (Párrafos), <form> (Formularios), etc. En mi caso, he tenido que empezar desde cero y aprender este lenguaje tanto en clase como en videos externos.
+
+CSS es la parte en la que podemos implementar el apartado estético a la página. Para hacerlo, es necesario poner direcciones a las etiquetas HTML; es decir, si colocamos un título con <h1> en el HTML, para poder aplicarle un estilo con CSS, es necesario hacer dos cosas. En primer lugar, vincular la página HTML con el comando <link rel="stylesheet" href="style.css"/> y después nombrar dos cosas: añadir a h1 una clase o id, <h1 class="h1_prueba"> en el caso de clase o <h1 id="h1_prueba"> para poner un id. Luego, tendremos que ir a la hoja de estilo "style.css" y llamar a la variable con .h1_prueba (class), #h1_prueba (id). Para empezar a darle color, ubicación, fuente, tamaño, etc.
+
+Los problemas que me han surgido al hacer esta página han sido varios. El conocimiento de HTML y CSS no es algo que tuviera; de hecho, no sabía nada, y por eso he tenido que aprender tanto por mi cuenta como en las clases. Las etiquetas eran algo difíciles de entender, pero con tiempo y videos en YouTube he logrado entenderlas y utilizarlas. La etiqueta más difícil ha sido la de tabla, porque no sabía definir los espacios, márgenes, etc. Por otro lado, quería hacer que siempre saliera el encabezado, lo que tenía que hacer es poner el logo y la lista de navegación en un heading y no separarlo todo por <div>. El CSS ha sido difícil de manejar, porque no hacía lo que quería o hacía lo contrario. Por ejemplo, en el apartado de "contáctanos", el tema de difuminar el fondo que está dentro del box era con una etiqueta llamada "transform". O poner las esquinas redondas, tenía que aplicar la etiqueta "border-radius".
+
+En conclusión, ha sido un trabajo duro en el que he tenido que dedicar mucho tiempo, pero ha sido necesario. Hoy en día, muchas empresas piden que sus trabajadores tengan el conocimiento de este lenguaje. Además, es el que se usa para crear todas las páginas web. Por eso, me he divertido mucho peleándome con el código y haciendo esta página web.
