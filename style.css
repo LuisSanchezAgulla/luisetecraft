@@ -299,9 +299,9 @@ body {
 
 
 
-#tbody_socios td {
+.td_socios a {
     text-decoration: none;
-    color: #fff;
+    color: azure;
 }
 
 #tbody_socios tr:hover {
